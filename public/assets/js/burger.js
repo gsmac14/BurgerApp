@@ -27,7 +27,7 @@ $(function() {
 
     var newBurger = {
       burger_name: $("#burgerName").val().trim(),
-      burger: $("[name=devour]:checked").val().trim()
+      // burger: $("[name=devour]:checked").val().trim()
     };
 
     // Send the POST request.
@@ -43,18 +43,18 @@ $(function() {
     );
   });
 
-  $(".delete-devour").on("click", function(event) {
-    var id = $(this).data("id");
+  // $(".delete-devour").on("click", function(event) {
+  //   var id = $(this).data("id");
 
-    // Send the DELETE request.
-    $.ajax("/api/burger/" + id, {
-      type: "DELETE"
-    }).then(
-      function() {
-        console.log("deleted burger", id);
-        // Reload the page to get the updated list
-        location.reload();
-      }
-    );
-  });
+  //   // Send the DELETE request.
+  //   $.ajax("/api/burger/" + id, {
+  //     type: "DELETE"
+  //   }).then(
+  //     function() {
+  //       console.log("deleted burger", id);
+  //       // Reload the page to get the updated list
+  //       location.reload();
+  //     }
+  //   );
+  // });
 });
