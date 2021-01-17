@@ -17,3 +17,21 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+.create-form{
+  text-align: center;
+}
+
+body{
+  background-color: goldenrod;
+}
+.card-img-top{
+  background-color: goldenrod;
+}
