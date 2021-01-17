@@ -1,7 +1,7 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background-color: goldenrod;
 }
 
 .label {
@@ -34,4 +34,8 @@ body{
 }
 .card-img-top{
   background-color: goldenrod;
+}
+
+.change-devour{
+  background-color: green;
 }
